@@ -17,7 +17,7 @@ If you want to accept payment with an existing ERC20 token, then go to deployERC
 and ERC20 Token Address
 
 # Deploying to a live network
-run npx hardhat run scripts/deploy.js --network sepolia
+run npx hardhat run scripts/deploy.ts --network sepolia
 
 Go to hardhat.config.ts and pase etherscanApi
 run npx hardhat verify --network sepolia <addressERC20>
